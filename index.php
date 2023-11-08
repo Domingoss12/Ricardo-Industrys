@@ -13,12 +13,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <!-- Local Host -->
+    <!-- Local CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
-
 </head>
 
-<body class="bg-[url('assets/Images/Background.svg')]">
+<body class="bg-[url('assets/Images/Background.svg')] bg-repeat">
     <?php include_once "assets/Includes/Sidebar.php" ?>
     <!-- Conteudo -->
     <div class="bg-gray-100 border-gray-200 dark:bg-gray-900">
@@ -84,8 +83,6 @@
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
-
-
             </div>
         </div>
 
@@ -107,8 +104,6 @@
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
-
-
             </div>
         </div>
 
@@ -130,8 +125,6 @@
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
-
-
             </div>
         </div>
     </div>

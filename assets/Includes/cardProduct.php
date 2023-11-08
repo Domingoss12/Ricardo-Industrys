@@ -1,4 +1,4 @@
-<div class="w-full p-3 media-element bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
+<div class="w-full p-3 media-element mb-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
     <a href="#">
         <img class="rounded-lg px-1" src="https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/4/8/484765566.jpg" alt="product image" />
     </a>
