@@ -100,41 +100,71 @@
             </div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg">
-
+            <!-- Detalhes do produto -->
             <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
                 <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                     <li class="mr-2" role="presentation">
-                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="productDetails-tab" data-tabs-target="#productDetails" type="button" role="tab" aria-controls="productDetails" aria-selected="false">Detalhes do produto</button>
                     </li>
                     <li class="mr-2" role="presentation">
-                        <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">Dashboard</button>
+                        <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="InfoTec-tab" data-tabs-target="#InfoTec" type="button" role="tab" aria-controls="dashboard" aria-selected="false">Informações Técnicas</button>
                     </li>
                     <li class="mr-2" role="presentation">
-                        <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
-                    </li>
-                    <li role="presentation">
-                        <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="contacts-tab" data-tabs-target="#contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false">Contacts</button>
+                        <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Avaliações</button>
                     </li>
                 </ul>
             </div>
-            <div id="myTabContent">
-                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+            <div id="myTabContent" class="pb-2">
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 m-2" id="productDetails" role="tabpanel" aria-labelledby="productDetails-tab">
+                    Jogue, transmita, crie. A GeForce RTX™ 4060 Ti e a RTX 4060 permitem que enfrente os jogos e aplicativos mais recentes com a arquitetura ultraeficiente NVIDIA Ada Lovelace. Usufrua de jogos imersivos acelerados por IA com ray tracing e DLSS 3 e potencialize o seu processo criativo e produtividade com o NVIDIA Studio. <br>
+                    <br>
+                    RAY TRACING <br>
+                    A arquitetura Ada liberta toda a glória do Ray Tracing, que simula como a luz se comporta no mundo real. Com o poder da série RTX 40 e RT Cores de terceira geração, pode usufruir de mundos virtuais incrivelmente detalhados como nunca antes. <br>
+                    <br>
+                    NVIDIA DLSS 3 - O MULTIPLICADOR DE DESEMPENHO ALIMENTADO POR IA <br>
+                    O DLSS é um avanço revolucionário em gráficos alimentados por IA que aumenta enormemente o desempenho. Alimentado pelos novos Tensor Cores de quarta geração e Optical Flow Accelerator nas GPUs GeForce RTX 40 Series, o DLSS 3 usa IA para criar frames adicionais de alta qualidade. <br>
+                    <br>
+                    NVIDIA REFLEX - VITÓRIA MEDIDA EM MILISSEGUNDOS <br>
+                    As GPUs NVIDIA Reflex e GeForce RTX 40 Series oferecem a menor latência e melhor capacidade de resposta para a máxima vantagem competitiva. Construído para otimizar e medir a latência do sistema, o Reflex fornece aquisição de alvo mais rápida, tempos de reação mais rápidos e a melhor precisão de mira para jogos competitivos. <br>
+                    <br>
+                    NVIDIA STUDIO - A SUA CRIATIVIDADE ALIMENTADA PELA IA <br>
+                    Leve os seus projetos criativos para o próximo nível com o NVIDIA Studio. Alimentado por um novo hardware dedicado, as placas RTX 40 Series oferecem desempenho incomparável em renderização 3D, edição de vídeo e design gráfico. Usufrua de acelerações RTX ricas em recursos nos principais aplicativos criativos, drivers NVIDIA Studio de classe mundial projetados para fornecer estabilidade máxima e um conjunto de ferramentas exclusivas que aproveitam o poder do RTX para fluxos de trabalho criativos assistidos por IA. <br>
                 </div>
-                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                <!-- Informações Técnicas -->
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 m-2" id="InfoTec" role="tabpanel" aria-labelledby="InfoTec-tab">
+                    <div class="relative overflow-x-auto">
+                        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+
+                            <tbody>
+                                <tr class="bg-white dark:bg-gray-800">
+                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                        Apple MacBook Pro 17"
+                                    </th>
+                                    <td class="px-6 py-4">
+                                        Silver
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
-                </div>
-                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
-                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                <!-- Avaliações -->
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 m-2" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+                    <p class="text-center">Não existem avaliações</p>
                 </div>
             </div>
-
         </div>
-
     </div>
+
+    <!-- Footer Start -->
+    <div class="bg-gray-100 border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-2xl mx-auto">
+            <?php include_once "assets/includes/footer.php" ?>
+        </div>
+    </div>
+
+
     <!-- Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
