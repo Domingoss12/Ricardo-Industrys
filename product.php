@@ -33,7 +33,7 @@
         <div class="flex px-5 py-3 p-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-100 dark:bg-gray-900 dark:border-gray-800" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-3">
                 <li class="inline-flex items-center">
-                    <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+                    <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-cyan-600 dark:text-gray-400 dark:hover:text-white">
                         <svg class="w-3 h-3 mr-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
                         </svg>
@@ -45,7 +45,7 @@
                         <svg class="w-3 h-3 mx-1 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#" class="ml-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ml-2 dark:text-gray-400 dark:hover:text-white">Placas Gráficas</a>
+                        <a href="#" class="ml-1 text-sm font-medium text-gray-700 hover:text-cyan-600 md:ml-2 dark:text-gray-400 dark:hover:text-white">Placas Gráficas</a>
                     </div>
                 </li>
                 <li aria-current="page">
@@ -86,7 +86,7 @@
 
             <div class="col-span-2 p-5 space-y-3 bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg">
                 <h1 class="text-3xl font-medium text-gray-900 dark:text-white">Nome do produto</h1>
-                <h2 class="text-2xl font-bold text-blue-400">199.99€</h2>
+                <h2 class="text-2xl font-bold text-cyan-400">199.99€</h2>
                 <div class="flex flex-wrap items-center space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-truck w-7 h-7 fill-green-400" viewBox="0 0 16 16">
                         <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
@@ -94,8 +94,8 @@
                     <h3 class="font-bold text-green-400">Produto se classifica para envio grátis</h3>
                 </div>
                 <div class="flex items-center space-x-2">
-                    <a href="#"><button type="button" class=" w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Adicionar ao carrinho</button></a>
-                    <a href="#"><button type="button" class="py-2.5 w-full px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Comprar agora</button></a>
+                    <a href="#"><button type="button" class=" w-full text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-cyan-600 dark:hover:bg-cyan-700 focus:outline-none dark:focus:ring-cyan-800">Adicionar ao carrinho</button></a>
+                    <a href="#"><button type="button" class="py-2.5 w-full px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-cyan-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Comprar agora</button></a>
                 </div>
             </div>
         </div>
@@ -150,8 +150,8 @@
                     </div>
                 </div>
                 <!-- Avaliações -->
-                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 m-2" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-                    <p class="text-center">Não existem avaliações</p>
+                <div class="hidden p-4 rounded-lg bg-gray-50 text-center dark:bg-gray-800 m-2" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+                    Não existem Avaliações
                 </div>
             </div>
         </div>

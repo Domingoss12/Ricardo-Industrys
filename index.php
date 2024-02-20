@@ -97,7 +97,8 @@
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
-                <?php include "assets/Includes/cardProduct.php" ?><?php include "assets/Includes/cardProduct.php" ?>
+                <?php include "assets/Includes/cardProduct.php" ?>
+                <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
                 <?php include "assets/Includes/cardProduct.php" ?>
