@@ -10,7 +10,7 @@
             <span class="text-md md:text-2xl font-semibold text-gray-900 dark:text-white">1111.11€</span>
         </div>
         <div class="flex mx-auto place-content-center my-3">
-            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 flex items-center focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Adicionar ao Carrinho</a>
+            <a href="#" class="text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 flex items-center focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">Adicionar ao Carrinho</a>
 
         </div>
     </div>

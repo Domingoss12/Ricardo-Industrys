@@ -16,7 +16,7 @@
     </div>
     <hr class="my-6 border-gray-200 mx-auto dark:border-gray-700 lg:my-8" />
     <div class="flex items-center justify-between">
-        <span class="text-sm text-gray-500 text-center dark:text-gray-400">© 2023 <a href="../index.php" class="hover:underline">Ricardo Industry's</a>. Todos os Direitos Reservados.</span>
+        <span class="text-sm text-gray-500 text-center dark:text-gray-400">© 2024 <a href="../index.php" class="hover:underline">Ricardo Industry's</a>. Todos os Direitos Reservados.</span>
         <div class="flex mt-4 space-x-6 justify-center :mt-0">
             <a href="https://github.com/Domingoss12" class="text-gray-500 hover:text-gray-900 dark:hover:text-white" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github w-5 h-5" viewBox="0 0 16 16">
@@ -51,7 +51,7 @@
     </div>
     <hr class="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />
     <div>
-        <span class="text-sm text-gray-500 dark:text-gray-400">© 2023 <a href="index.php" class="hover:underline">Ricardo Industry'<s></s></a>. Todos os Direitos Reservados.</span>
+        <span class="text-sm text-gray-500 dark:text-gray-400">© 2024 <a href="index.php" class="hover:underline">Ricardo Industry'<s></s></a>. Todos os Direitos Reservados.</span>
         <div class="flex mt-4 space-x-6 ">
             <a href="https://github.com/Domingoss12" class="text-gray-500 hover:text-gray-900 dark:hover:text-white" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github w-5 h-5" viewBox="0 0 16 16">
